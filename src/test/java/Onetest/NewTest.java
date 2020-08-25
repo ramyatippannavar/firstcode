@@ -13,5 +13,6 @@ public class NewTest {
 	  System.out.println("hi hello");
 	  WebDriverManager.chromedriver().setup();
 	  WebDriver driver=new ChromeDriver();
+	  driver.get("http://www.gmail.com");
   }
 }
